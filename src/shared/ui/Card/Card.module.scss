@@ -1,0 +1,27 @@
+.card {
+  padding: 16px;
+}
+
+.primary {
+  border: 1px solid var(--color-primary-700);
+  background-color: rgba(68, 64, 60, 0.4);
+
+  box-shadow:
+    1px 2px 4px rgba(68, 64, 60, 0.4),
+    inset 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.secondary {
+  border: var(--border-accent);
+}
+
+.max {
+  width: 100%;
+}
+
+.round-s {
+  border-radius: var(--radius-s);
+}
++ .round-m {
+  border-radius: var(--radius-m);
+}
